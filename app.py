@@ -9,7 +9,7 @@ import plotly.express as px
 
 st.set_page_config(page_title="HR Attrition Dashboard", page_icon="🧑‍💼", layout="wide")
 
-df = pd.read_csv('data/hr_attrition_clean.csv')
+df = pd.read_csv('data/hr_attrition_clean_for_sql.csv')
 # ---------------- Sidebar filters ----------------
 st.sidebar.title("🔍 Filters")
 departments = st.sidebar.multiselect("Department", sorted(df['Department'].unique()),
