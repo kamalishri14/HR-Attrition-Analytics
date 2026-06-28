@@ -140,7 +140,4 @@ dashboard, see `powerbi/DASHBOARD_ANALYSIS.md`.
 
 ---
 
-## 👤 Author
 
-Kamali — Full-Stack & Data Analytics Developer
-*This project was built as part of interview preparation and portfolio development.*
