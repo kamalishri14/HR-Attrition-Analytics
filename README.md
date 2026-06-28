@@ -4,7 +4,7 @@ End-to-end data analytics project identifying the key drivers of employee attrit
 raw, messy HR data to a cleaned dataset, SQL-driven insights, Python EDA, and an interactive
 live dashboard.
 
-**🔗 Live Dashboard:** [Add your Streamlit Cloud link here after deployment]
+**🔗 Live Dashboard:** [https://hr-attrition-analytics-xuyuzhpjphflep5mv6fw82.streamlit.app/]
 **📁 Dataset:** 1,470 employees · same schema as the well-known IBM HR Analytics dataset
 
 ---
@@ -92,16 +92,6 @@ full analysis behind these findings.)*
 
 ---
 
-## 📊 Sample Visualizations
-
-| OverTime vs Attrition | Attrition by Tenure |
-|---|---|
-| ![OverTime](images/attrition_by_overtime.png) | ![Tenure](images/attrition_by_tenure.png) |
-
-| Overall Attrition Breakdown | Attrition by Department |
-|---|---|
-| ![Overview](images/attrition_overview.png) | ![Department](images/attrition_by_department.png) |
-
 ---
 
 ## 🚀 How to Run This Project
@@ -146,24 +136,7 @@ dashboard, see `powerbi/DASHBOARD_ANALYSIS.md`.
 
 ---
 
-## 🌐 Deploying the Live Dashboard (Streamlit Community Cloud — Free)
 
-1. Push this repo to GitHub
-2. Go to [share.streamlit.io](https://share.streamlit.io) → sign in with GitHub
-3. Click **New app** → select this repo → set main file path to `dashboard/app.py`
-4. Click **Deploy** — the dashboard already includes its own copy of the cleaned dataset at
-   `dashboard/data/hr_attrition_clean.csv`, so no extra path configuration is needed.
-5. You'll get a public URL like `https://your-app.streamlit.app`
-6. Add that URL to the top of this README and to your resume/LinkedIn project section
-
----
-
-## 📝 Resume Bullet (ready to use)
-
-> Analyzed employee attrition patterns across 1,470 records using SQL, Python, and Power BI;
-> identified overtime and low job satisfaction as the top attrition drivers (37.6% vs 22.1%
-> attrition rate) and isolated a high-risk segment representing 9% of the workforce, deploying
-> a live interactive dashboard with actionable retention insights.
 
 ---
 
