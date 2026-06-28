@@ -9,17 +9,7 @@ import plotly.express as px
 
 st.set_page_config(page_title="HR Attrition Dashboard", page_icon="🧑‍💼", layout="wide")
 
-@st.cache_data
-def load_data():
-    import os
-    candidates = ['data/hr_attrition_clean.csv', '../data/hr_attrition_clean.csv']
-    for path in candidates:
-        if os.path.exists(path):
-            return pd.read_csv(path)
-    raise FileNotFoundError("hr_attrition_clean.csv not found in 'data/' or '../data/' — see README for setup.")
-
-df = load_data()
-
+df = pd.read_csv('data/hr_attrition_clean.csv')
 # ---------------- Sidebar filters ----------------
 st.sidebar.title("🔍 Filters")
 departments = st.sidebar.multiselect("Department", sorted(df['Department'].unique()),
